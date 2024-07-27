@@ -1,0 +1,9 @@
+{
+  "name": "functions-for-html",
+  "version": "1.0.0",
+  "main": "scriptForHTML.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scriptForHTML.js"
+  }
+}

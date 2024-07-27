@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="author" href="https://github.com/SlavaVasilakiy" />
+    <title>Functional page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Эта страница предназначена для проверки функций</h1>
+    </header>
+    <main>
+      <div class="greetUser" style="margin-bottom: 40px">
+        <h3>Приветствие</h3>
+        <p>Введите имя</p>
+        <input type="text" id="userName" placeholder="например Вася" />
+        <button class="greetUser__button">Поприветствовать</button>
+        <hr />
+      </div>
+
+      <div class="celsiusToFahrenheit" style="margin-bottom: 40px">
+        <h3>Ковертер градусов цельсия в градусы фаренгейта</h3>
+        <p>Введите температуру в градусах цельсия</p>
+        <input
+          type="number"
+          id="celsius"
+          title="Температура в градусах Цельсия"
+          placeholder="например 36.6"
+          step="0.1"
+        />
+        <button class="celsiusToFahrenheit__button">Конвертировать</button>
+        <p class="celsiusToFahrenheit__result"><b>Результат:</b></p>
+        <hr />
+      </div>
+
+      <div class="calculateFallDistance" style="margin-bottom: 40px">
+        <h3>Расстояние, которое объект пролетел в секундах после падения</h3>
+        <p>Введите время падения объекта в секундах</p>
+        <input
+          type="number"
+          id="time"
+          title="Время падения объекта в секундах"
+          placeholder="например 5"
+          step="1"
+        />
+        <button class="calculateFallDistance__buttont">Расчитать</button>
+        <p class="calculateFallDistance__result"><b>Результат:</b></p>
+        <hr />
+      </div>
+
+      <div class="calculateAverage" style="margin-bottom: 40px">
+        <h3>Среднее значение трех чисел</h3>
+        <p>Введите три числа</p>
+        <input
+          type="number"
+          id="firstNumber"
+          title="Первое число"
+          placeholder="например 2"
+          step="0.1"
+        />
+        <input
+          type="number"
+          id="secondNumber"
+          title="Второе число"
+          placeholder="например 3"
+          step="0.1"
+        />
+        <input
+          type="number"
+          id="thirdNumber"
+          title="Третье число"
+          placeholder="например 5"
+        />
+        <button class="calculateAverage__button">Расчитать</button>
+        <p class="calculateAverage__result"><b>Результат:</b></p>
+        <hr />
+      </div>
+
+      <div class="concatStrings" style="margin-bottom: 40px">
+        <h3>Соединение двух строк</h3>
+        <p>Введите две строки</p>
+        <input
+          type="text"
+          id="firstString"
+          title="Первая строка"
+          placeholder="например hello"
+        />
+        <input
+          type="text"
+          id="secondString"
+          title="Вторая строка"
+          placeholder="например world"
+        />
+        <button class="concatStrings__button">Выполнить</button>
+        <p class="concatStrings__result"><b>Результат:</b></p>
+      </div>
+    </main>
+
+    <script type="module" src="scriptForHTML.js"></script>
+  </body>
+</html>
